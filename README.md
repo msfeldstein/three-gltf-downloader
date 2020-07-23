@@ -11,6 +11,9 @@ $ npm install --save download-three-gltf
 ## Usage
 
 ```
+global.THREE = require("three")
 const download = require("download-three-gltf")
+const scene = new THREE.Scene()
+... add some stuff to scene ...
 download(scene, {filename: "MyModel.glb"})
 ```
