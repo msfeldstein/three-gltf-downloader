@@ -1,0 +1,15 @@
+{
+	"name": "download-three-gltf",
+	"version": "1.0.0",
+	"description": "Handy function to download a three.js scene as a glTF Binary",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"peerDependencies": {
+		"three": "*"
+	}
+}
