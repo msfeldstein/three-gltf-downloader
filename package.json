@@ -1,6 +1,6 @@
 {
   "name": "three-gltf-downloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Handy function to download a three.js scene as a glTF Binary",
   "main": "index.js",
   "scripts": {
