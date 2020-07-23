@@ -17,3 +17,11 @@ const scene = new THREE.Scene()
 ... add some stuff to scene ...
 download(scene, {filename: "MyModel.glb"})
 ```
+
+Or bind it to a ctrl+s to download later on
+
+```
+window.addEventListener("keydown", (e) => {
+  if (e.key === "s" && e.ctrlKey) download(scene);
+});
+```
